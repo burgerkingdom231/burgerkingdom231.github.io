@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cycle For Change </title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <button onclick="window.location.href='index.html'">HOME</button>
+    <button onclick="window.location.href='form.html'">TAKE ACTION</button>
+    <button onclick="window.location.href='About.html'">ABOUT</button>
+  </nav>
+  
+   <!-- Main Heading and Introduction-->
+  
+  <header>
+    <h1>Cycle Of Change</h1>
+    <p>Together, we can ensure no girl misses school or opportunities because of menstruation.</p>
+  </header>
+
+  <!-- Visual Frames (for stats, infographics, or icons) -->
+  
+  <section class="image-row">
+    <div class="image-frame">
+      <img src="assets/Classroom.jpg" alt="Girls missing in school" />
+  </div>
+    <div class="image-frame">
+      <img src="assets/Girls.jpg" alt="Girls in school" />
+    </div>
+    <div class="image-frame">
+      <img src="assets/Pro.jpg" alt="Girls can do anything" />
+    </div>
+  </section>
+
+  <!-- Informational Section -->
+  <section>
+    <h2>Why It Matters</h2>
+    <p>Period poverty affects millions of girls around the world. Without access to sanitary products, many are forced to miss school, drop out, or face health issues. Raising awareness and providing support can restore dignity and opportunity.</p>
+  </section>
+
+  <!-- Optional Image -->
+  <section>
+    <h2> Our Campaign in Action </h2>
+    <img src="assets/event in action.jpg" alt="Campaign in action (placeholder)">
+    <p> Thanks to your thoughtful donation, we’re able to provide education and essential menstrual hygiene products to girls in need. Your support plays a vital role in helping us achieve our mission. </p>
+  </section>
+
+</body>
+</html>
