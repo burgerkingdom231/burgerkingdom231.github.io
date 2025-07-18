@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Share Your Story</title>
+
+  <!-- Link to same stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+ 
+  <nav>
+    <button onclick="window.location.href='index.html'">HOME</button>
+    <button onclick="window.location.href='form.html'">TAKE ACTION</button>
+    <button onclick="window.location.href='About.html'">ABOUT</button>
+  </nav>
+  
+
+  <!-- Main Heading -->
+  <header>
+    <h1>TAKE ACTION</h1>
+    <h2>Share Your Experience</h2>
+    <p>Your story can help raise awareness, inspire change, and support those who feel alone in this struggle.</p>
+  </header>
+  
+  <!--Visual Frames (for Stats, Infografics or icons)-->
+  <section class="image-row">
+    <div class="image-frame">
+      <img src="assets/sharing.jpg" alt="Girls can do anything" />
+    </div>
+    <div class="image-frame">1 in 10 Girls affected</div>
+    <div class="image-frame">
+      <img src="assets/donation.jpg" alt="Girls can do anything" />
+    </div>
+
+  </section>
+
+  <!-- Subheading -->
+  <section>
+    <h2>Why Your Voice Matters</h2>
+    <p>Every voice counts. Whether you've faced period poverty personally or supported someone who has, your story adds strength to this movement.</p>
+  </section>
+
+  <!-- Responsive Form -->
+  <section class="form-container">
+    <!-- Left: Form -->
+    <form id="storyForm">
+      <label for="name">Your Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="country">Country:</label><br />
+      <input type="text" id="country" name="country" required /><br /><br />
+
+      <label for="story">Your Story:</label><br />
+      <textarea id="story" name="story" rows="6" placeholder="Share your experience..." required></textarea><br /><br />
+
+      <button type="submit">Submit</button>
+      <p id="responseMessage"></p>
+    </form>
+
+    <!-- Right: Submitted Stories -->
+    <div id="storyDisplay">
+      <h3>Shared Stories</h3>
+      <ul id="storyList"></ul>
+    </div>
+  </section>
+
+ 
+</body>
+</html>
